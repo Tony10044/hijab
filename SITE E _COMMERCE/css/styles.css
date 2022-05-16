@@ -1,0 +1,460 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+
+* {
+    font-family: Monserrat;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px auto;
+}
+
+/* tete de page */
+
+header.header {
+    display: flex;
+    align-items: center;
+}
+
+header.header img {
+    width: 100px;
+}
+
+
+section.top-page {
+    background: url(../images/bg.png);
+    background-size: cover;
+    height: 80vh;
+    padding: 25px;
+}
+
+/* page de bienvenue (landing page) */
+
+.landing-page {
+    padding: 20px 50px;
+}
+
+.big-title {
+    color: white;
+    font-size: 80px;
+    font-family: Abril FatFace, cursive;
+    font-weight: 100;
+
+}
+
+.scroll-down {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    position: absolute;
+    bottom: 160px;
+}
+
+/* menu de navigation */
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 400px;
+    margin-left: 100px;
+}
+
+nav.nav li {
+    color: rgb(0, 0, 0);
+}
+nav.nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+/* services */
+
+.services {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+.service-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.delivery-icon {
+    font-size: 50px;
+    color: #ADD981;
+}
+
+.service-details {
+    font-weight: 600;
+    width: 200px;
+    text-align: center;
+}
+
+/* best sells */
+
+.section-title {
+    font-size: 50px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    position: relative;
+}
+
+.section-title::before {
+    content: '';
+    position: absolute;
+    background-color: #ADD981;
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+}
+
+.ventes {
+    margin: 100px;
+}
+
+.ventes {
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ventes-box {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.no-grid {
+    min-width: 350px;
+    height: 500px;
+    flex: 1;
+}
+
+.ventes1 {
+    background-image: url(../images/vedettes/vedette1.jpg);
+}
+
+.ventes2 {
+    background-image: url(../images/vedettes/Vedette2.jpg);
+}
+
+.ventes3 {
+    background-image: url(../images/vedettes/vedette3.jpg);
+}
+
+.ventes-details {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFFFFFDF;
+    padding: 5px 20px;
+}
+
+.ventes-name {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 3px;
+}
+
+/* nos produits */
+
+.section-title {
+    font-size: 50px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    position: relative;
+}
+
+.section-title::before {
+    content: '';
+    position: absolute;
+    background-color: #ADD981;
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+}
+
+.produits {
+    margin: 100px;
+}
+
+.produits {
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.produits-box {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.no-grid {
+    min-width: 350px;
+    height: 500px;
+    flex: 1;
+}
+
+.produits1 {
+    background-image: url(../images/produits/produit1.jpg);
+}
+
+.produits2 {
+    background-image: url(../images/produits/produit2.jpg);
+}
+
+.produits3 {
+    background-image: url(../images/produits/produit3.jpg);
+}
+
+.produits4 {
+    background-image: url(../images/produits/produit4.jpg);
+}
+
+.produits5 {
+    background-image: url(../images/produits/produit5.jpg);
+}
+
+.produits6 {
+    background-image: url(../images/produits/produit6.jpg);
+}
+
+.produits-details {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFFFFFDF;
+    padding: 5px 20px;
+}
+
+.produits-name {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 3px;
+}
+
+/* soldes */
+
+.section-title {
+    font-size: 50px;
+    font-family: 'Abril FatFace', cursive;
+    font-weight: 100;
+    position: relative;
+}
+
+.section-title::before {
+    content: '';
+    position: absolute;
+    background-color: rgba(188, 10, 10, 0.728);
+    width: 50px;
+    height: 7px;
+    bottom: 0;
+}
+
+.soldes {
+    margin: 100px;
+}
+
+.soldes {
+    min-height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.soldes-box {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.no-grid {
+    min-width: 350px;
+    height: 500px;
+    flex: 1;
+}
+
+.solde1 {
+    background-image: url(../images/soldes/solde1.jpg);
+}
+
+.solde2 {
+    background-image: url(../images/soldes/solde2.jpg);
+}
+
+.solde3 {
+    background-image: url(../images/soldes/solde3.jpg);
+}
+
+.soldes-details {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFFFFFDF;
+    padding: 5px 20px;
+}
+
+.soldes-name {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 3px;
+}
+
+.soldes-price {
+    color: #ADD981;
+    line-height: 3px;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+/* pied de page */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 100px;
+    font-weight: 600;
+}
+
+footer a.cgv {
+    text-decoration: none;
+    color: black;
+}
+
+del{
+    color: gray;
+}
+
+.section-title{
+    margin: 15px;
+    text-transform: capitalize;
+}
+
+.svg-inline--fa.fa-w-20{
+    width: 2em;
+    color: rgba(188, 10, 10, 0.728);
+}
+
+/* Responsive */
+@media screen and (max-width: 980px){
+
+    /* Header */
+    nav.nav {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        width: 400px;
+        margin-left: 40px;
+    }
+    
+    nav.nav li {
+        color: rgb(0, 0, 0);
+        font-size: 0.7em;
+    }
+
+    header.header img {
+        width: 80px;
+    }
+
+    .no-grid{
+        min-width: 415px;
+        height: 500px;
+        flex: 1;
+    }
+
+    /* TOP BG IMAGE */
+    section.top-page {
+        background: url(../images/bg.png);
+        background-size: cover;
+        height: 45vh;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    /* Nos Service */
+    .services{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 15px;
+    }
+    .service-item{
+        margin: 10px -25px 10px 1px;
+    }
+    .service-details {
+        font-weight: 600;
+        width: 175px;
+        text-align: center;
+        font-size: 10px;
+    }
+    .svg-inline--fa.fa-w-20{
+        width: 1em;
+        color: rgba(188, 10, 10, 0.728);
+    }
+
+    .section-title{
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .section-title::before{
+        content: '';
+        position: absolute;
+        background-color: rgba(188, 10, 10, 0.728);
+        width: 25px;
+        height: 3px;
+        bottom: 1;
+    }
+
+    /* Nos meilleures ventes */
+    .ventes{
+        margin: 20px;
+    }
+    .ventes-box{
+        position: absolute;
+        background-size: cover;
+        background-position: center;
+    }
+    .ventes-name {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 0px;
+    }
+
+    /* Nos Produits */
+    .produits{
+        margin: 20px;
+    }
+
+    .produits-box{
+        position: absolute;
+        background-size: cover;
+        background-position: center;
+    }
+
+    /* Soldes */
+    .soldes{
+        margin: 20px;
+    }
+    /* .soldes-box{
+        position: absolute;
+        background-size: cover;
+        background-position: center;
+    } */
+    footer{
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px;
+        font-weight: 600;
+    }
+}
